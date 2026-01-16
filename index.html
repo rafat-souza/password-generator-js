@@ -14,6 +14,61 @@
     <script src="./js/scripts.js" defer></script>
   </head>
   <body>
-    <h1>teste</h1>
+    <div id="register-container">
+      <div id="register-banner">
+        <div id="banner-layer">
+          <h1>Welcome</h1>
+        </div>
+      </div>
+      <div id="register-form">
+        <h2>Create your account:</h2>
+        <p>Sign up to use all the system's functionalities</p>
+        <div class="form-control">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Type your name"
+          />
+        </div>
+        <div class="form-control">
+          <label for="email">E-mail</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Type your e-mail"
+          />
+        </div>
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Create a password"
+          />
+        </div>
+        <p>
+          Do you need help to create a secure password?
+          <span id="generate-password">Click here.</span>
+        </p>
+        <div id="generated-password">
+          <p>Here is your password:</p>
+          <h4></h4>
+        </div>
+        <div class="form-control">
+          <label for="confirmpassword">Password confirmation</label>
+          <input
+            type="text"
+            name="confirmpassword"
+            id="confirmpassword"
+            placeholder="Confirm your password"
+          />
+        </div>
+        <input type="submit" value="Sign Up" />
+      </div>
+    </div>
   </body>
 </html>
