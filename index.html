@@ -54,9 +54,29 @@
           Do you need help to create a secure password?
           <span id="generate-password">Click here.</span>
         </p>
+        <div id="generate-options">
+          <p>Choose the options that you want</p>
+          <div class="form-control">
+            <label for="length">Amount of characters:</label>
+            <input type="text" id="length" name="length" value="10" />
+          </div>
+          <div class="form-control">
+            <label for="letters">Letters:</label>
+            <input type="checkbox" id="letters" name="letters" checked />
+          </div>
+          <div class="form-control">
+            <label for="numbers">Numbers:</label>
+            <input type="checkbox" id="numbers" name="numbers" checked />
+          </div>
+          <div class="form-control">
+            <label for="symbols">Symbols:</label>
+            <input type="checkbox" id="symbols" name="symbols" checked />
+          </div>
+        </div>
         <div id="generated-password">
           <p>Here is your password:</p>
           <h4></h4>
+          <button id="copy-password">Copy</button>
         </div>
         <div class="form-control">
           <label for="confirmpassword">Password confirmation</label>
